@@ -45,5 +45,7 @@ const pages = [
 
 .card__info {
   padding: 16px;
+  display: flex;
+  flex-direction: column;
 }
 </style>
