@@ -5,6 +5,7 @@ const pages = [
     name: "Apple Homepage",
     github: "https://github.com/jbsiddall/portfolio-apple-homepage",
     screenshot: "/apple_homepage.png",
+    demo: "https://portfolio-apple-homepage.vercel.app/",
   }
 ]
 </script>
@@ -17,6 +18,7 @@ const pages = [
       <div class="card__info">
         <p>{{page.name}}</p>
         <a :href="page.github">github</a>
+        <a :href="page.demo">demo</a>
       </div>
     </div>
   </div>
